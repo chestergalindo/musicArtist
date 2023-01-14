@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { RouteList } from '../../routes/RouteList';
+import { RouteList } from '../../Routes/RouteList';
 import { AppProvider } from '../../storage/artist/context';
 
 export const App = () => {

@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 module.exports = {
   ...require('./test/jest-common'),
-  collectCoverageFromm: ['**/src/**/*.js'],
+  collectCoverageFrom: ['**/src/**/*.js'],
   coverageThresHold: {
     global: {
       statement: 100,
