@@ -2,7 +2,7 @@
 module.exports = {
   ...require('./test/jest-common'),
   collectCoverageFrom: ['**/src/**/*.js'],
-  coverageThresHold: {
+  coverageThreshold: {
     global: {
       statement: 100,
       branches: 100,
